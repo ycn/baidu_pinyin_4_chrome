@@ -1,0 +1,21 @@
+{
+   "background_page": "bg.html",
+   "browser_action": {
+      "default_icon": "icon_enabled.png",
+      "default_title": "Disable Baidu Cloud Pinyin"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Baidu Cloud Pinyin Extension for Chrome (\u767E\u5EA6\u4E91\u8F93\u5165\u6CD5Chrome\u6269\u5C55) - by y_cn (Hotkey: ctrl + `)",
+   "icons": {
+      "48": "icon_enabled.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDKngZpWhzMgbikMFGVtkpda101i5EOfFq0fMtm1odpGoE/EHKaGDFrM5OSVYFBSYlV9JGkw+/DTJBxnJbKaKOEBSBq1OX/dvJ0DQh111rxdqc+gZbMsg41XYP6x61H2+SIMyM1xAPI0vEFa4Xu2RUQ1JbrDTQPjWgNIgI18xXxQIDAQAB",
+   "name": "Baidu Cloud Pinyin",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.93"
+}
