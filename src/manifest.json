@@ -1,5 +1,5 @@
 {
-   "background_page": "bg.html",
+   "background": "bg.html",
    "browser_action": {
       "default_icon": "icon_enabled.png",
       "default_title": "Disable Baidu Cloud Pinyin"
@@ -13,9 +13,9 @@
    "icons": {
       "48": "icon_enabled.png"
    },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDKngZpWhzMgbikMFGVtkpda101i5EOfFq0fMtm1odpGoE/EHKaGDFrM5OSVYFBSYlV9JGkw+/DTJBxnJbKaKOEBSBq1OX/dvJ0DQh111rxdqc+gZbMsg41XYP6x61H2+SIMyM1xAPI0vEFa4Xu2RUQ1JbrDTQPjWgNIgI18xXxQIDAQAB",
    "name": "Baidu Cloud Pinyin",
    "permissions": [ "tabs" ],
+   "manifest_version": 2,
    "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "0.93"
+   "version": "1.0"
 }
